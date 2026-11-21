@@ -88,7 +88,10 @@ image = cv2.imread('baseball.jpg')  # Load the image from file
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB for correct display
 plt.title("Original Image")
 plt.axis('off')
+```
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/a11d0802-00b3-4eef-b108-46548b905cbf" />
 
+```
 # Step 2: Image Translation
 tx, ty = 100, 50  # Translation factors (shift by 100 pixels horizontally and 50 vertically)
 M_translation = np.float32([[1, 0, tx], [0, 1, ty]])  # Translation matrix:
@@ -99,7 +102,10 @@ translated_image = cv2.warpAffine(image, M_translation, (image.shape[1], image.s
 plt.imshow(cv2.cvtColor(translated_image, cv2.COLOR_BGR2RGB))  # Display the translated image
 plt.title("Translated Image")
 plt.axis('off')
+```
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/f7374eb0-ee3a-4e4a-98c8-09e74eb6c0ee" />
 
+```
 # Step 3: Image Scaling
 fx, fy = 5.0, 2.0  # Scaling factors (1.5x scaling for both width and height)
 scaled_image = cv2.resize(image, None, fx=fx, fy=fy, interpolation=cv2.INTER_LINEAR)
@@ -109,7 +115,10 @@ scaled_image = cv2.resize(image, None, fx=fx, fy=fy, interpolation=cv2.INTER_LIN
 plt.imshow(cv2.cvtColor(scaled_image, cv2.COLOR_BGR2RGB))  # Display the scaled image
 plt.title("Scaled Image")
 plt.axis('off')
+```
+<img width="515" height="297" alt="image" src="https://github.com/user-attachments/assets/279063ef-882b-43b3-8045-471022a4ec91" />
 
+```
 # Step 4: Image Shearing
 shear_matrix = np.float32([[1, 0.5, 0], [0.5, 1, 0]])  # Shearing matrix
 # The matrix shears the image by a factor of 0.5 in both x and y directions
@@ -120,7 +129,10 @@ sheared_image = cv2.warpAffine(image, shear_matrix, (image.shape[1], image.shape
 plt.imshow(cv2.cvtColor(sheared_image, cv2.COLOR_BGR2RGB))  # Display the sheared image
 plt.title("Sheared Image")
 plt.axis('off')
+```
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/6dfd3421-8040-4e2c-9e04-455b541a0586" />
 
+```
 # Step 5: Image Reflection
 reflected_image = cv2.flip(image, 2)  # Flip the image horizontally (1 means horizontal flip)
 # flip: 1 means horizontal flip, 0 would be vertical flip, -1 would flip both axes
@@ -128,7 +140,10 @@ reflected_image = cv2.flip(image, 2)  # Flip the image horizontally (1 means hor
 plt.imshow(cv2.cvtColor(reflected_image, cv2.COLOR_BGR2RGB))  # Display the reflected image
 plt.title("Reflected Image")
 plt.axis('off')
+```
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/015ef4af-7729-4ce3-a5a0-9dc7c417e225" />
 
+```
 # Step 6: Image Rotation
 (height, width) = image.shape[:2]  # Get the image height and width
 angle = 45  # Rotation angle in degrees (rotate by 45 degrees)
@@ -140,7 +155,10 @@ rotated_image = cv2.warpAffine(image, M_rotation, (width, height))  # Apply rota
 plt.imshow(cv2.cvtColor(rotated_image, cv2.COLOR_BGR2RGB))  # Display the rotated image
 plt.title("Rotated Image")
 plt.axis('off')
+```
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/eae51b93-d71d-474a-84fb-dd6649e0c8b2" />
 
+```
 # Step 7: Image Cropping
 x, y, w, h = 100, 100, 200, 150  # Define the top-left corner (x, y) and the width (w) and height (h) of the crop
 # Cropping the image from coordinates (x, y) to (x+w, y+h)
@@ -151,24 +169,8 @@ plt.imshow(cv2.cvtColor(cropped_image, cv2.COLOR_BGR2RGB))  # Display the croppe
 plt.title("Cropped Image")
 plt.axis('off')
 ```
+<img width="512" height="411" alt="image" src="https://github.com/user-attachments/assets/34b059ea-fb4d-463e-a008-8dad5b305707" />
 
----
-
-##  Output
-
-<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/95ba640a-2de8-45b5-b6b2-6c4ce4096cc9" />
-
-<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/e18308ab-8e5d-43ff-90e0-9e425f40ca47" />
-
-<img width="515" height="297" alt="image" src="https://github.com/user-attachments/assets/bfc35dc1-e2ca-4d3c-a58e-a2c761b37d34" />
-
-<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/58be1127-4c8e-40e9-8f42-1000740546f6" />
-
-<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/777726c2-6001-4841-9fee-ddb032a18a98" />
-
-<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/cabe247e-9bd3-4457-95ce-5ac0aae84464" />
-
-<img width="512" height="411" alt="image" src="https://github.com/user-attachments/assets/9c4df45b-b14f-48e4-9591-c7e6ab2ad4d4" />
 
 ### Image Translation
 - Original image is displayed  
