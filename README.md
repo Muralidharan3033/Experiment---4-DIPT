@@ -152,12 +152,6 @@ plt.title("Cropped Image")
 plt.axis('off')
 ```
 
-### Developed By:
-**Name:** MURALIDHARAN M
-
-### Register No:
-212223040120 
-
 ---
 
 ##  Output
