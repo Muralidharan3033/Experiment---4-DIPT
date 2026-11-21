@@ -1,5 +1,7 @@
 # Geometric Transformations Using OpenCV
 
+## Name : Muralidharan M
+## Reg No : 212223040120
 ---
 
 ## Aim
@@ -160,20 +162,19 @@ plt.axis('off')
 
 ##  Output
 
-<img width="1107" height="621" alt="image" src="https://github.com/user-attachments/assets/e2b79726-329b-4482-8111-9d9f7f9620b4" />
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/95ba640a-2de8-45b5-b6b2-6c4ce4096cc9" />
 
-<img width="1192" height="615" alt="image" src="https://github.com/user-attachments/assets/ece4c884-78e6-4252-8c43-ef297533dd63" />
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/e18308ab-8e5d-43ff-90e0-9e425f40ca47" />
 
-<img width="1498" height="342" alt="image" src="https://github.com/user-attachments/assets/f67c4e6c-e1a4-4f80-b774-208b9bf45eff" />
+<img width="515" height="297" alt="image" src="https://github.com/user-attachments/assets/bfc35dc1-e2ca-4d3c-a58e-a2c761b37d34" />
 
-<img width="1413" height="747" alt="image" src="https://github.com/user-attachments/assets/8aa7539d-9b5f-47df-b93e-0ddfd0b20081" />
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/58be1127-4c8e-40e9-8f42-1000740546f6" />
 
-<img width="1478" height="747" alt="image" src="https://github.com/user-attachments/assets/e6d026fc-1c3c-46ce-bee5-b35efdf2f7d9" />
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/777726c2-6001-4841-9fee-ddb032a18a98" />
 
-<img width="1401" height="748" alt="image" src="https://github.com/user-attachments/assets/4d0cee35-40a2-4f90-b0bf-cdccddab15ab" />
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/cabe247e-9bd3-4457-95ce-5ac0aae84464" />
 
-<img width="1245" height="671" alt="image" src="https://github.com/user-attachments/assets/ee71aa47-4d57-4ee6-8210-f3e997dba1cd" />
-
+<img width="512" height="411" alt="image" src="https://github.com/user-attachments/assets/9c4df45b-b14f-48e4-9591-c7e6ab2ad4d4" />
 
 ### Image Translation
 - Original image is displayed  
